@@ -1,13 +1,208 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    margin:0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.wrapper{
+    border: 1px solid #cccccc;
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+
+}
+
+.form-wrapper{
+    margin: auto;
+}
+
+.fieldName{
+    font-family: "Arial";
+    color: #444444;
+    font-size: 16px;
+}
+
+h3{
+    font-family: Arial;
+    color: #222222;
+}
+
+
+input[type=text], select{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error{
+    color: #FF0800;
+    font-size: 12px;
+}
+
+.check{
+    margin: 5px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73,79,82);
+    color: white;
+}
+
+.navLinks{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: Arial;
+}
+
+.navStyle {
+    color: white;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    height: 100%;
+    width: 100%;
+}
+
+.slider{
+    display: flex;
+    flex-direction:row;
+}
+
+.left-bar{
+    flex: 1 0 20%;
+}
+
+.opacity {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-family: Arial;
+    font-weight: 800;
+}
+
+.title{
+padding-left: 10px;
+}
+
+.search {
+    border-radius: 4px;
+    border: 2px solid rgb(73,79,82);
+    height: 30px;
+    color: rgb(73,79,82);
+    font-weight: 700;
+    text-align: center;
+    width: 80%;
+    margin: 10%;
+}
+
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
+.post{
+    flex: 1 0 25%;
+    margin: 5px;
+    height: 200px;
+    position: relative;
+    max-width: 32%;
+}
+
+.detailImage{
+    width: 98%;
+    margin: 1%;
+}
+
+.detailTitle{
+    font-size: 45px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: 600;
+}
+
+.detailDescription{
+    font-family: Arial;
+}
+
+.arrow{
+    width: 160px;
+    height: 79px;
+
+}
+.arrow img{
+    width: 80%;
+    margin-left: 20%;
+    height: auto;
+}
+
+h4{
+    font-family: Arial;
+    color: #222222;
+}
+h2{
+    font-family: Arial;
+    color: #222222;
+}
+
+.ptaq123{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
